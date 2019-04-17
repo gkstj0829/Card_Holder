@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
+
+body{
+    background: #7f7fd5;
+    background: -webkit-linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+}
+
+.loginform {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.loginform .title {
+    font-family: 'Pacifico', cursive;
+    font-size: 50pt;
+    opacity: 1;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.loginform .idbox {
+    border: 0;
+    height: 22pt;
+    width: 100%;
+    text-align: center;
+    font-family: 'Noto Sans KR',sans-serif;
+    border-radius: 2rem;
+    color:#4f7de0;
+    font-weight: bold;
+    outline: none;
+}
+
+.loginform .submit {
+    border-radius: 8pt;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border: 0;
+    cursor: pointer;
+    background: #2351cf;
+    color: white;
+}
+
+.in {
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+    margin-top: 10pt;
+}
+
+.loginform .welcome {
+    font-family: 'Noto Sans KR', sans-serif;
+    color:white;
+}
+
+.loginform .table{
+    display: inline-block;
+}
